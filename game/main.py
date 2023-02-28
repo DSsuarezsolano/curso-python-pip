@@ -8,7 +8,7 @@ def choose_options():
 
   if not user_option in options:
     print('esa opcion no es valida')
-    # continue
+    ## continue
     return None, None
 
   computer_option = random.choice(options)
